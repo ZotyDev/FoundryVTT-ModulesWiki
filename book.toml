@@ -1,0 +1,7 @@
+[book]
+title = "Zoty Modules"
+authors = ["ZotyDev"]
+description = "A wiki for my modules"
+language = "en"
+multilingual = false
+src = "src"
