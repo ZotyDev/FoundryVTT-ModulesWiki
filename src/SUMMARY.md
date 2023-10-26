@@ -14,3 +14,4 @@
     - [Hooks](./oif/apireference/hooks.md)
 - [🧙🏻‍♂️ Wizard](./wizard/introduction.md)
 - [🏷️ ItemTags](./itemTags/introduction.md)
+  - [API Reference](./itemTags/apiReference.md)
