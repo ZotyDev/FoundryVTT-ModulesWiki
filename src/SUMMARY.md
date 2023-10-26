@@ -13,4 +13,4 @@
     - [Tag Packs](./oif/apireference/tagPacks.md)
     - [Hooks](./oif/apireference/hooks.md)
 - [🧙🏻‍♂️ Wizard](./wizard/introduction.md)
-- [🏷️ ItemTags](./itemTags/introdcution.md)
+- [🏷️ ItemTags](./itemTags/introduction.md)
