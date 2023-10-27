@@ -1,6 +1,18 @@
 # API Reference
 You can interact with the API by using the following methods:
 
+_Note that you can use tags for any Object that has flag support, but you should not do it with objects that are not supported_
+
+### Usage Example
+Imagine you want to check if a item has the `metal` tag set.
+```js
+if (ItemTags.Check(game.items.get("<id>"), ['metal'])) {
+    console.log('The tag is set');
+} else {
+    console.log('The tag is not set');
+}
+```
+
 ### Get Tags
 ```js
 ItemTags.Get(document);
