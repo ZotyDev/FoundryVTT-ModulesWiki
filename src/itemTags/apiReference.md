@@ -9,44 +9,44 @@ ItemTags.Get(document);
 
 Returns a `array` containing all the tags. If no tags are found then it returns `undefined`.
 
-### Check Tag
+### Check Tags
 ```js
-ItemTags.Check(document, tag);
+ItemTags.Check(document, tags);
 ```
 - `document` - Any type of document that is [supported]()
-- `tag` - A `string` that defines the tag
+- `tags` - A `string array` that defines the tags
 
-Returns `true` if the document contains the tag, otherwise returns `false`.
+Returns `true` if the document contains **all** the tags, otherwise returns `false`.
 
 ### Set the Tags
 ```js
 ItemTags.Set(document, tags);
 ```
 - `document` - Any type of document that is [supported]()
-- `tags` - A `array` of `strings` that define the tags
+- `tags` - A `string array` that define the tags
 
 Set the tags of a document.
 
-### Add Tag
+### Add Tags
 ```js
-ItemTags.Add(document, tag);
+ItemTags.Add(document, tags);
 ```
 - `document` - Any type of document that is [supported]()
-- `tag` - A `string` that defines the tag
+- `tags` - A `string array` that defines the tags
 
-Adds a tag at the end of the already existing ones.
+Append the tags to the already existing ones.
 
-### Remove Tag
+### Remove Tags
 ```js
-ItemTags.Remove(document, tag);
+ItemTags.Remove(document, tags);
 ```
 - `document` - Any type of document that is [supported]()
-- `tag` - A `string` that defines the tag
+- `tags` - A `string array` that defines the tags
 
-Removes a tag from a document if it exists, otherwise does nothing.
+Remove the tags from a document if they exist, otherwise does nothing.
 
 ### Clear Tags
 ```js
-ItemTags.Clear(document, tag);
+ItemTags.Clear(document);
 ```
 Removes all tags from a document.
