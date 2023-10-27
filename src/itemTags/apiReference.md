@@ -62,3 +62,18 @@ Remove the tags from a document if they exist, otherwise does nothing.
 ItemTags.Clear(document);
 ```
 Removes all tags from a document.
+
+### Search Tags
+```js
+ItemTags.Search(tags);
+```
+- `tags` - A `string array` that defines the tags
+
+Search your entire world for tags (does not search the compendium packs). Only the documents that contain **all** the passed tags are returned. The returned data looks like this:
+```js
+result: {
+    actors: [] // A array containing all actors that have the tags
+    items: [] // A array containing all items that have the tags
+    noneFound: true // Will only be set when no documents match the search
+}
+```
