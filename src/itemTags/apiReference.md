@@ -201,8 +201,8 @@ ItemTags.SearchAtor(actor, options);
     - `'excludeOR'`
       - For tags: only show results that **don't** contain **at least one** of the passed tags
       - For string: only show results when **at least one** of the tags **don't** contain the string
-  - `tags` (optional) - A `string array` containing the tags that will be used for filtering (take a look at the tips below, before [`SearchActor()`](#search-actor))
-  - `string` (optional) - A `string` containing the string that will be used for filtering (take a look at tips below, before [`SearchActor()`](#search-actor))
+  - `tags` (optional) - A `string array` containing the tags that will be used for filtering
+  - `string` (optional) - A `string` containing the string that will be used for filtering
 
 This method returns a `Object array` containing the items that got found, if no items match the filters it returns `undefined`.
 
