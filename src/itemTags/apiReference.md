@@ -158,14 +158,14 @@ The returned Object will contain only items that **don't** have the metal tag se
 Lets imagine a more realistic use, lets say we have a spell that makes all magical wooden items in a area turn into dust and vanish, you could get all the wooden items like this:
 ```js
 ItemTags.SearchAll({
-    tags: ['wood', 'magic'], // We want magical wooden items to be affects, not only wood, not only magic
+    tags: ['wood', 'magic'], // We want magical wooden items to be affected, not only wood, not only magic
     method: 'includeAND', // Since we want the items with BOTH tags set, we need to use includeAND
     where: {
         actor: false, // We are not searching for actors, just items
         item: {
             global: false, // We don't need it
             actor: false, // We don't need it
-            scene: true, // The only opton we need, items that are inside a actor from the current scene
+            scene: true, // The only option we need, items that are inside a actor from the current scene
             player: false, // We don't need it
         }
     }
