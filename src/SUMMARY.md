@@ -15,3 +15,4 @@
 - [🧙🏻‍♂️ Wizard](./wizard/introduction.md)
 - [🏷️ ItemTags](./itemTags/introduction.md)
   - [API Reference](./itemTags/apiReference.md)
+- [🎵 SoundPackage](./soundPackage/introduction.md)
