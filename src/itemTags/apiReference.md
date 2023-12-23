@@ -26,10 +26,37 @@ Returns a `array` containing all the tags. If no tags are found then it returns 
 
 ### Check Tags
 ```js
-ItemTags.Check(document, tags);
+ItemTags.Check(document, tags, method);
 ```
 - `document` - Any type of document that is [supported]()
 - `tags` - A `string array` that defines the tags
+- `method` (optional, defaults to `'includeAND'`) - A `string` that defines what filtering method will be used, this value can be:
+    - `'includeAND'`
+      - Only shows results that contain **all** the passed tags
+    - `'excludeAND'`
+      - Only shows results that **don't** contain **all** the passed tags
+    - `'includeOR'`
+      - Only show results that contain **at least one** of the passed tags
+    - `'excludeOR'`
+      - Only show results that **don't** contain **at least one** of the passed tags
+
+Returns `true` if the document contains **all** the tags, otherwise returns `false`.
+
+### Check Tags by String
+```js
+ItemTags.CheckString(document, string, method);
+```
+- `document` - Any type of document that is [supported]()
+- `string` - A `string` that defines the string
+- `method` (optional, defaults to `'includeAND'`) - A `string` that defines what filtering method will be used, this value can be:
+    - `'includeAND'`
+      - Only show the results when **all** contained tags have the string
+    - `'excludeAND'`
+      - Only show the results when **all** the contained tags **don't** contain the string
+    - `'includeOR'`
+      - Only show results when **at least one** of the tags contain the string
+    - `'excludeOR'`
+      - Only show results when **at least one** of the tags **don't** contain the string
 
 Returns `true` if the document contains **all** the tags, otherwise returns `false`.
 
@@ -87,7 +114,7 @@ result: {
 ItemTags.SearchAll(options);
 ```
 - `options` - A `Object` that defines the options for the search
-  - `method` (optional) - A `string` that defines what filtering method will be used when `tags` or `string` is passed, this value can be:
+  - `method` (optional, defaults to `'includeAND'`) - A `string` that defines what filtering method will be used when `tags` or `string` is passed, this value can be:
     - `'includeAND'`
       - For tags: only shows results that contain **all** the passed tags
       - For string: only show the results when **all** contained tags have the string
