@@ -13,10 +13,11 @@ Hi! I'm Zoty and this is a documentation that I put together in order to help yo
 ## Modules
 
 These are the modules that I currently develop and maintain:
-- [Automated Objects, Interactions and Effects](./oif/introduction.md)
-- [Wizard (Library)](./wizard/introduction.md)
+- [Debugger (Library)](./debugger/introduction.md)
 - [Item Tags (Library)](./itemTags/introduction.md)
-- [Sound Package](./soundPackage/introduction.md)
+- ~~[Wizard (Library)](./wizard/introduction.md)~~ W.I.P
+- [Automated Objects, Interactions and Effects](./oif/introduction.md)
+- ~~[Sound Package](./soundPackage/introduction.md)~~ W.I.P
 
 All my modules are open-source and licensed under MIT, no one will ever be charged a cent for the modules I make. But I do appreciate donations, if you want to support me I will be very happy :D
 

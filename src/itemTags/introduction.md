@@ -1,4 +1,4 @@
-<a href="https://foundryvtt.com/packages/object-interaction-fx">
+<a href="https://foundryvtt.com/packages/item-tags">
     <p align="center">
         <img src="https://raw.githubusercontent.com/ZotyDev/FoundryVTT-ItemTags/main/branding/title.png" alt="Item Tags Title">
     </p>
