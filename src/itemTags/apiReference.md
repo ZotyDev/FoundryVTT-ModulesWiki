@@ -20,7 +20,7 @@ if (ItemTags.Check(game.items.get("<id>"), ['metal'])) {
 ```js
 ItemTags.Get(document);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 
 Returns a `array` containing all the tags. If no tags are found then it returns `undefined`.
 
@@ -28,7 +28,7 @@ Returns a `array` containing all the tags. If no tags are found then it returns 
 ```js
 ItemTags.Check(document, tags, method);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 - `tags` - A `string array` that defines the tags
 - `method` (optional, defaults to `'includeAND'`) - A `string` that defines what filtering method will be used, this value can be:
     - `'includeAND'`
@@ -46,7 +46,7 @@ Returns `true` if the document contains **all** the tags, otherwise returns `fal
 ```js
 ItemTags.CheckString(document, string, method);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 - `string` - A `string` that defines the string
 - `method` (optional, defaults to `'includeAND'`) - A `string` that defines what filtering method will be used, this value can be:
     - `'includeAND'`
@@ -64,7 +64,7 @@ Returns `true` if the document contains **all** the tags, otherwise returns `fal
 ```js
 ItemTags.Set(document, tags);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 - `tags` - A `string array` that define the tags
 
 Set the tags of a document.
@@ -73,7 +73,7 @@ Set the tags of a document.
 ```js
 ItemTags.Add(document, tags);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 - `tags` - A `string array` that defines the tags
 
 Append the tags to the already existing ones.
@@ -82,7 +82,7 @@ Append the tags to the already existing ones.
 ```js
 ItemTags.Remove(document, tags);
 ```
-- `document` - Any type of document that is [supported]()
+- `document` - Any type of document that is [supported](./introduction.md#supported-documents)
 - `tags` - A `string array` that defines the tags
 
 Remove the tags from a document if they exist, otherwise does nothing.
@@ -208,7 +208,7 @@ If you are trying to do something and these examples are not enough, feel free t
 
 > All the options inside `where` are optional, if you don't pass any of the values it will default to `true`. You can set any of the values (including `where` itself, `where.item` and `where.actor`) to `false` to exclude them from the search.
 
-> There are two optional values, `tags` and `strings`, only one will be used for the search, if you include both, the `tags` option will be used. And if you don't pass both the search will return all the results that have atleast one tag set.
+> There are two optional values, `tags` and `strings`, only one will be used for the search, if you include both, the `tags` option will be used. And if you don't pass both, the search will return all the results that have atleast one tag set.
 
 ### Search Actor
 ```js
