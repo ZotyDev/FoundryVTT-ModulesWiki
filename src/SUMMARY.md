@@ -2,11 +2,6 @@
 
 [Introduction](./introduction.md)
 
-- [🕷️ Debugger](./debugger/introduction.md)
-  - [API Reference](./debugger/apiReference.md)
-- [🏷️ ItemTags](./itemTags/introduction.md)
-  - [API Reference](./itemTags/apiReference.md)
-- [🧙🏻‍♂️ Wizard](./wizard/introduction.md)
 - [✨ Automated Objects, Interactions and Effects 🔥](./oif/introduction.md)
   - [Customization](./oif/customization.md)
   - [Special Tags](./oif/specialTags.md)
@@ -17,4 +12,3 @@
   - [API Reference](./oif/apiReference.md)
     - [Tag Packs](./oif/apireference/tagPacks.md)
     - [Hooks](./oif/apireference/hooks.md)
-- [🎵 SoundPackage](./soundPackage/introduction.md)
